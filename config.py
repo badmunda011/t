@@ -6,13 +6,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = 
-API_HASH = ""
-BOT_TOKEN = ""
-MONGO_DB_URI = ""
+API_ID = 25742938
+API_HASH = "b35b715fe8dc0a58e8048988286fc5b6"
+BOT_TOKEN = "7200244120:AAHY7lDzbv2UUhvCyIUWkCMtwj9mr-Bf7ew"
+MONGO_DB_URI = "mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
-LOG_GROUP_ID = 
-OWNER_ID = 
+LOG_GROUP_ID = -1002093247039
+OWNER_ID = 6352107773
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -52,7 +52,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = ""
+STRING1 = "BQGIzloAfcxANJrgKzZPAYhP5memCBvbKhdV0DvNBp4bnMykBy5M-FIl1mOuPtXxjhgI9cEGQssFzspFMqL-QVQFxFU-l-fJHvNy_IJgLDQYrbPC5bqJwPvcvqBbXim7v9T8s1frMpYcVGDctJYA_KRTrhlc5j1eVZv3nWKlBmOi5ii2r7qw4p856c-2rSOf4b_b_eGB3NL0qCwWgaz83kCd2L6nTCZ2YQisRf0rsjn_9E-CDUYl4a8Y0QpyzQkr8zOLu-pK9a8i4N-pUxT2fTPeLZ_UEXxPR77__LBMIJ2-ZGlzeEkGiJSOBeCWZ6G8PmbO1jaYGiWKxbpyauSIc1FQSEcreQAAAAG7QxP_AA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
